@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+figures/*.png
+*.egg-info/
+.env
+environment.yml   # or commit it if you want reproducibility
