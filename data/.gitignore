@@ -1,0 +1,6 @@
+# Large, re-downloadable raw files (Météo-France open data). Not versioned.
+Q_63_*.csv
+Q_63_*.csv.gz
+liste_poste.csv
+# ERA5 raw chunk cache (re-fetchable via fetch_era5.py); combined daily file IS kept
+era5_openmeteo_chunks/
