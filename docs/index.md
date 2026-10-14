@@ -1,4 +1,4 @@
-# Messeix — Intelligence climatique & agriculture
+# Messeix — Climat & agriculture
 
 Bienvenue sur le site de synthèse du **Rapport Climatique de Messeix**
 (Puy-de-Dôme, Massif Central, France). Ce site regroupe les livrables du projet :
