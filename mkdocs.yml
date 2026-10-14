@@ -1,0 +1,48 @@
+site_name: Messeix — Climat & Agriculture
+site_description: Rapport climatique et guide de sélection végétale pour Messeix (Puy-de-Dôme)
+site_author: cdurand95
+repo_url: https://github.com/cdurand95/messeix-climate
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Mode sombre
+    - scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Mode clair
+  features:
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Accueil: index.md
+  - Rapport climatique: CLIMATE_REPORT_Messeix.md
+  - Guide légumes & arbres: PLANT_GUIDE_Messeix.md
+  - Figures: figures.md
+
+extra:
+  generator: false
